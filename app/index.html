@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="We are engaged in web and mobile development">
     <meta name="Keywords" content="Development, mamon, modile development, web development, web applications">   
@@ -10,7 +11,33 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-  
+    <header class="header">
+        <div class="header__container">
+            <div class="header__left">
+                <div class="header__brand">
+                    <div class="header__logo">
+                        <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M29 0V11.6C19.3902 11.6 11.6 19.3902 11.6 29C11.6 38.6098 19.3902 46.4 29 46.4C38.6098 46.4 46.4 38.6098 46.4 29H58C58 45.0163 45.0163 58 29 58C12.9837 58 0 45.0163 0 29C0 12.9837 12.9837 0 29 0Z" fill="#5528FF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M29 5.80005H52.2V29H40.6V17.4001H29V5.80005Z" fill="#5528FF"/></svg>    
+                    </div>
+                    <div class="header__logo-name"><h1 class="header__title">mamon</h1></div>   
+                </div>
+                <div class="header__menu-toggle">
+                    <button class="menu-toggle" type="button">
+                        <span class="menu-toggle__item"></span>
+                        <span class="menu-toggle__item"></span>
+                        <span class="menu-toggle__item"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="header__right">
+                <ul class="menu">
+                    <li class="menu__item"><a href="#" class="menu__link">Services</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Clients</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Our team</a></li>
+                    <li class="menu__item"><button class="menu__button">Contact Us</button></li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
     <script src="scripts/script.js"></script>
 </body>
