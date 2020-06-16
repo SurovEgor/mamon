@@ -15,6 +15,9 @@ a {
     color: #000;
     text-decoration: none;
 }
+.header__right .open body {
+    overflow: hidden;
+}
 .header {
     display: flex;
 }
@@ -328,5 +331,33 @@ a {
     }
     .services__text {
         width: 100%;
+    }
+}
+.clients__line {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.clients__wrapper {
+    width: 100%;
+}
+.clients__line:not(:last-child) {
+    margin-bottom: 62px;
+}
+@media(max-width: 700px) {
+    .clients__line {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .clients__line:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .clients__item {
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .clients__line:last-child .clients__item:last-child {
+        margin: 0;
     }
 }
